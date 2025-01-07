@@ -1,4 +1,4 @@
-import { TbBrandGithub, TbBrandLeetcode } from "react-icons/tb";
+import { TbBrandGithub } from "react-icons/tb";
 import { SiCodechef, SiCodeforces } from "react-icons/si";
 import { BiLogoLinkedin } from "react-icons/bi";
 

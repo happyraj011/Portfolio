@@ -40,7 +40,7 @@ export default function About() {
             transition={{ delay: 0.5 }}
             className="text-gray-400 text-lg leading-relaxed max-w-3xl"
           >
-            Hi! I’m <span className="text-[#64ffda]">Happy Raj</span>, a B.Tech student at IIIT Ranchi specializing in Electronics and Communication Engineering. I’m passionate about coding and web development, with a focus on modern technologies like Next.js, TypeScript, MongoDB, and Tailwind CSS.
+            Hi! I&apos;m <span className="text-[#64ffda]">Happy Raj</span>, a B.Tech student at IIIT Ranchi specializing in Electronics and Communication Engineering. I&apos;m passionate about coding and web development, with a focus on modern technologies like Next.js, TypeScript, MongoDB, and Tailwind CSS.
           </motion.p>
           <motion.p
             initial={{ opacity: 0 }}
@@ -48,7 +48,7 @@ export default function About() {
             transition={{ delay: 0.7 }}
             className="text-gray-400 text-lg leading-relaxed max-w-3xl"
           >
-            I’ve worked on projects such as <span className="text-[#64ffda]">NoteTrade</span> and <span className="text-[#64ffda]">Expiry Notifier</span>, and I'm always looking to collaborate and learn new tech. I also qualified for the Solution Challenge 2023-24 Bootcamp, showcasing my leadership and teamwork skills.
+            I&apos;ve worked on projects such as <span className="text-[#64ffda]">NoteTrade</span> and <span className="text-[#64ffda]">Expiry Notifier</span>, and I'm always looking to collaborate and learn new tech. I also qualified for the Solution Challenge 2023-24 Bootcamp, showcasing my leadership and teamwork skills.
           </motion.p>
         </div>
 
