@@ -1,0 +1,20 @@
+import html from './html.png';
+import css from './css.png';
+import js from './javascript.png';
+import react from './react.png';
+import ts from './typescript.png';
+import node from './nodejs.png';
+import mongo from './mongo-db.png';
+import mysql from './mysql.png';
+import python from './python.png';
+import git from './git.png';
+import cpp from './cpp.png';
+import nextjs from './nextjs.png';
+import redux from './redux.png';
+import express from './express.png';
+import tailwind from './tailwind.png';
+import vs from './visual-studio-code.png';
+import github from './github.png';
+import postman from './postman.png';
+
+export { vs, github, postman,  html, css, js, react, ts, node, mongo, git, cpp, nextjs, tailwind, mysql, python, redux, express };
