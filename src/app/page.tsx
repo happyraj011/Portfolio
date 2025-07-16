@@ -5,6 +5,7 @@ import Projects from "@/components/projects";
 import RightSide from "@/components/RightSide";
 import LeftSide from "@/components/LeftSide";
 import Contact from "@/components/contact";
+import Experience from "@/components/experience";
 
 
 
@@ -25,6 +26,12 @@ export default function Home() {
       <section className="flex flex-col items-center sm:items-start gap-6 sm:gap-8 w-full">
         <About />
       </section>
+
+      <section className="flex flex-col items-center sm:items-start gap-6 sm:gap-8 w-full">
+       <Experience/>
+      </section>
+
+      
      
        <Projects/>
        <Contact/>

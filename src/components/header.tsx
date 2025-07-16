@@ -39,7 +39,25 @@ export default function Header() {
         {/* Navigation */}
         <nav className="hidden lg:flex">
           <ul className="flex text-lg items-center gap-7">
-            {["Home", "About", "Projects", "Contact"].map(
+             <Link
+                 
+                  href="#href"
+                  onClick={handleScroll}
+                  className="nav-link mt-2 text-textDark hover:text-[#64ffdb] font-medium flex items-center gap-1 transition duration-300 ease-in-out"
+                >
+                  <motion.li
+                    initial={{ y: -10, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.1}}
+                  >
+                   
+                   <span className="inline-flex relative cursor-pointer h-7 overflow-x-hidden group text-[#64ffdb]">
+                  Home
+                  <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
+                </span>
+                  </motion.li>
+                </Link>
+            {["About","Experience", "Projects", "Contact"].map(
               (item, index) => (
                 <Link
                   key={item}
@@ -66,7 +84,7 @@ export default function Header() {
 
         {/* Resume Button */}
         <a
-          href="https://drive.google.com/file/d/1xiromShrJtj2iSqsyitHhyNIsC6iQo-M/view?usp=sharing"
+          href="https://drive.google.com/file/d/1n4kI6BcL89idkLzgWJLmnUkj7U4Q-_Jx/view?usp=sharing"
           target="_blank"
           className="hidden lg:inline-block"
         >
@@ -87,7 +105,26 @@ export default function Header() {
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        {["Home", "About", "Projects", "Contact"].map(
+              <Link
+                 
+                  href="#href"
+                  onClick={handleScroll}
+                  className="nav-link hover:text-[#64ffdb] transition duration-300 ease-in-out"
+                >
+                  <motion.li
+                    initial={{ y: -10, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.1}}
+                    className="flex items-center gap-2"
+                  >
+                   
+                   <span className="text-[#64ffdb]">
+                  Home
+                  <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
+                </span>
+                  </motion.li>
+                </Link>
+        {["About","Experience", "Projects", "Contact"].map(
           (item, index) => (
             <Link
               key={item}
@@ -108,7 +145,7 @@ export default function Header() {
           )
         )}
         <a
-          href="https://drive.google.com/file/d/1xiromShrJtj2iSqsyitHhyNIsC6iQo-M/view?usp=sharing"
+          href="https://drive.google.com/file/d/1n4kI6BcL89idkLzgWJLmnUkj7U4Q-_Jx/view?usp=sharing"
           target="_blank"
         >
           <motion.button

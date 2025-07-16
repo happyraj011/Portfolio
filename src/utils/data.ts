@@ -146,8 +146,22 @@ const projects = [
     github:"https://github.com/happyraj011/mern-blog",
     tech: ["ReactJs"," ExpressJs","MongoDB","Tailwind CSS","Redux","Node.js"," Flowbite React"],
   },
+];
+
+const experience = [
+  {
+    id: 1,
+    name: "Backend Developer Intern",
+    company: "Welcro",
+    duration: "Feb 2025 - May 2025",
+    points: [
+      "Developed a scalable onboarding system for advisors, streamlining the process and improving user activation efficiency.",
+      "Engineered 15+ reusable, modular components with Next.js and Tailwind CSS, optimizing frontend performance and ensuring a consistent UI/UX.",
+      "Implemented a secure authentication system with login and signup functionalities, enhancing data security and user management."
+    ],
+  },
 ]
 
 
-export {skills,projects};
+export {skills,projects,experience};
     
