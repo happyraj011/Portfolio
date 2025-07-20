@@ -84,7 +84,7 @@ export default function Header() {
 
         {/* Resume Button */}
         <a
-          href="https://drive.google.com/file/d/1n4kI6BcL89idkLzgWJLmnUkj7U4Q-_Jx/view?usp=sharing"
+          href="https://drive.google.com/file/d/1_v55kgs4Gr-48aXMYySjSnsJ_Vfj6vwC/view?usp=sharing"
           target="_blank"
           className="hidden lg:inline-block"
         >
@@ -145,7 +145,7 @@ export default function Header() {
           )
         )}
         <a
-          href="https://drive.google.com/file/d/1n4kI6BcL89idkLzgWJLmnUkj7U4Q-_Jx/view?usp=sharing"
+          href="https://drive.google.com/file/d/1_v55kgs4Gr-48aXMYySjSnsJ_Vfj6vwC/view?usp=sharing"
           target="_blank"
         >
           <motion.button
