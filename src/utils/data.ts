@@ -2,7 +2,7 @@
 import { html, css, js, react, ts, node, mongo, git, cpp, nextjs, tailwind,  python, mysql, redux, express, vs, github, postman } from 
  "../../public/skills"
 
-import {expiryNotifier,noteTrade,technicalBlog} from "../../public"
+import {expiryNotifier,noteTrade,technicalBlog,pathcraftAI} from "../../public"
 
 const skills = [
     {
@@ -139,6 +139,15 @@ const projects = [
   },
   {
     id:3,
+    name:"PathCraftAI",
+    description:"Engineered PathCraftAI using Next.js, Gemini AI, and Prisma to deliver AI-powered career coaching and smart resume generation.",
+    image:pathcraftAI,
+    link:"https://path-craft-ai.vercel.app/",
+    github:"https://github.com/happyraj011/PathCraftAI",
+    tech: [" Next.js"," JavaScript"," Gemini AI"," Neon"," Clerk"," Inngest","  Prisma"," Shadcn UI"],
+  },
+  {
+    id:4,
     name:"Technical Blog",
     description:"  Create a secure, responsive MERN stack blog with rich text editing, subscriptions, and notifications.",
     image:technicalBlog,
